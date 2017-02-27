@@ -1,8 +1,9 @@
 class Skim < Formula
+  version "v0.2.1-beta.2"
   desc "Fuzzy finder written in Rust"
   homepage "https://github.com/lotabout/skim"
-  url "https://github.com/lotabout/skim/releases/download/v0.2.0/skim-v0.2.0-x86_64-apple-darwin.tar.gz"
-  sha256 "074ae7bd3c639aad779c4865509de991f17cadf6f72f68b5284895950b43e22b"
+  url "https://github.com/lotabout/skim/releases/download/#{version}/skim-#{version}-x86_64-apple-darwin.tar.gz"
+  sha256 "5585c554564eb97c32b0bb6a064c4144191e6d2e9d527a428af0b1b681f26211"
 
   depends_on "homebrew/dupes/ncurses"
 
